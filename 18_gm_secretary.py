@@ -2,6 +2,10 @@ import requests
 import re
 from bs4 import BeautifulSoup
 
+# 오늘 날짜의 날씨 정보, 헤드라인 뉴스, IT 뉴스, 영어 회화 정보를 보여줍니다.
+# Show the weather information, headline news, IT news, english conversation practice for today.
+
+
 def create_soup(url):
 
     headers = headers = {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"}
